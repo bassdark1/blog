@@ -1,0 +1,74 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin: 0;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#blogList {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.blog-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+#viewAllBlogs {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#viewAllBlogs:hover {
+  background-color: #555;
+}
+/* Additional styling for textarea */
+textarea {
+  resize: none; /* Disable manual resizing by the user */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+}
